@@ -231,6 +231,7 @@ To write a Python program to calculate **Add, Sub & Division** using **Multiple 
 ## 💻 Program 
 ```
 class Calculation1:
+b=float(input())
     def Summation(self,a,b):
         return a+b
 class Calculation2:
@@ -240,7 +241,6 @@ class Derived(Calculation1,Calculation2):
     def Division(self,a,b):
         return a/b
 a=float(input())
-b=float(input())
 obj=Derived()
 print(obj.Summation(a,b))
 print(obj.Subtraction(a,b))
@@ -248,3 +248,7 @@ print(obj.Division(a,b))
 ```
 ## Output Example
 <img width="444" height="276" alt="image" src="https://github.com/user-attachments/assets/0a99029c-4f86-48d9-9f15-46ebb9380f53" />
+
+## Result
+Thus the Constructors in Python: Welcome Message with Student Name has been excute
+
